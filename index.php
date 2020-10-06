@@ -14,11 +14,10 @@
 
 <?php
 // "https://api.telegram.org/".$bot_token."/getMe";
-
-
+// 1271578252:AAEQukeL4N8n0NCLAjc-w0MifrIXHb7dBI8
+//set webhook -> https://api.telegram.org/bot1271578252:AAEQukeL4N8n0NCLAjc-w0MifrIXHb7dBI8/setwebhook?url=https://github.com/farshadbadri/botest/index.php
 echo $channelName ="@netasu_tech";
 echo $userName="@pishoniavdermanager";
-
 include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
