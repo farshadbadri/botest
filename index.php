@@ -3,7 +3,9 @@
 </head>
 
 <h1> something most be tested in my gihub  </h1>
-  <p> sdsdsdsdsdsd</p>
+<p> sdsdsdsdsdsd</p></br>
+<p> new edition
+</p>
 <body>
 
 </body>
@@ -11,7 +13,7 @@
 
 
 <?php 
-$bot_token = "1271578252:AAEQukeL4N8n0NCLAjc-w0MifrIXHb7dBI8";
+ 
 echo  "https://api.telegram.org/".$bot_token."/getMe";
 
 include 'madeline.php';
