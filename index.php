@@ -4,6 +4,8 @@
 $update = file_get_contents('php://input');
 $update = json_decode($update , TRUE);
 
+echo $update;
+
 $chatID= $update['message']['from']['id'];
 function sendMessage($chatid,$text){
   $url='https://api.telegram.org/bot1271578252:AAEQukeL4N8n0NCLAjc-w0MifrIXHb7dBI8/sendMessage?chat_id='.$cahtid."$text=".$text;
